@@ -24,6 +24,8 @@ public class MyDBHandler extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
     }
 
+    // Called when the database is created for the FIRST time.
+    // If a database already exists on disk with the same DATABASE_NAME, this method will NOT be called
     @Override
     public void onCreate(SQLiteDatabase db) {
         //string to create the database table
