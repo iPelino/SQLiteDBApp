@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="student_id">Student Id</string>
+    <string name="student_name">Student Name</string>
+    <string name="load_data">Load Data</string>
+    <string name="find_record">Find Record</string>
+    <string name="add_record">Add Record</string>
+    <string name="update_record">Update Record</string>
+    <string name="delete_record">Delete Record</string>
+</resources>
